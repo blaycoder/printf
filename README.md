@@ -1,7 +1,7 @@
 # C - printf project.
 ## Contributors ##
-Onatola Ayomide
-Mojolaoluwa Fadahunsi
+* Onatola Ayomide
+* Mojolaoluwa Fadahunsi
 
 # The project consists of normal functions, derived functions a man page and a README.md file.
 
@@ -59,29 +59,34 @@ _printf("Unknown:[%r]\n");
 | man_3_printf | Man page of the _printf() function. | None
 | main.h Header | file with the data type struct, standard libraries and custom prototypes. *.c compilation
 
-| printf.c | Main printf function file. Calls other functions.|
-| printf(name of var).c file|
+| printf.c | Main printf function file. Calls other functions.
+| printf(name of var).c file
 
-| print_numbers.c | Contains decimal and integer functions. None|
+| print_numbers.c | Contains decimal and integer functions. None
 
-| print_chars.c | Custom function for char data type. None|
+| print_chars.c | Custom function for char data type. None
 
-| printf_sting.c | Function that calls string type variable. None|
+| printf_sting.c | Function that calls string type variable. None
 
-| printf_oct.c | Functions that returns octal number. None|
+| printf_oct.c | Functions that returns octal number. None
 
-| printf_hex.c | Calls hexadecimal numbers (lowercase). None|
+| printf_hex.c | Calls hexadecimal numbers (lowercase). None
 
-| printf_HEX.c | Calls hexadecimal numbers (Uppercase). None|
+| printf_HEX.c | Calls hexadecimal numbers (Uppercase). None
 
-| printf_unsigned.c Returns an unisgined data type. None|
-| print_unsigned_int.c | contains the functions print_u, print_o, and print_b, which handle the conversion specifiers u, o, and b, respectively, | None|
-| printf_srev.c | Returns a string in reverse. | None|
-| print_rot13.c | Returns a string in Rot13. | None|
-| printf_str.c | Auxiliary functions such as strlen and strcpy. | None|
-| _putchar.c | Custom putchar function. | None|
+| printf_unsigned.c Returns an unisgined data type. None
+| print_unsigned_int.c | contains the functions print_u, print_o, and print_b, which handle the conversion specifiers u, o, and b, respectively, | None
+| printf_srev.c | Returns a string in reverse. | None
+| print_rot13.c | Returns a string in Rot13. | None
+| printf_str.c | Auxiliary functions such as strlen and strcpy. | None
+| _putchar.c | Custom putchar function. | None
 
-## Handle the following custom conversion specifier S : prints the string. Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters). How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print Handle the following conversion specifier: p
+## Handle the following custom conversion specifier S :
+prints the string. Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters).
+
+#How is the world ruled and led to war?
+Diplomats lie to journalists and believe these lies when they see them in printHandle the following conversion specifier:
+* p
 
 The big print gives and the small print takes away Handle the following flag characters for non-custom conversion specifiers:
 
